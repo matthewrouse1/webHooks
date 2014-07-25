@@ -1,0 +1,4 @@
+#This file is read to determine which branches should be checked
+#Uses indexOf to determine branch so it is possible to watch "folders" e.g. hotfix will watch hotfix/x_y and hotfix/y_z etc
+#refs/heads/ is stripped from the branch name at the start so don't include that in the name.
+master
